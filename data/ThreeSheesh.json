@@ -88,6 +88,12 @@
             "link": "https://youtu.be/06DSy-sBuRc?t=282",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "szymek",
+            "link": "https://www.youtube.com/watch?v=pBfrzvG37zA",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
