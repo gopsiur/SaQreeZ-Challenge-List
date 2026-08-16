@@ -5,7 +5,7 @@
     "creators": ["SaQreeZ"],
     "verifier": "Specie",
     "verification": "https://youtu.be/IIT3z-RCFBc",
-    "percentToQualify": 25,
+    "percentToQualify": 65,
     "password": "None",
     "enjoyment": "6.5/10",
     "description": "Every End but not on steroids.",
@@ -69,6 +69,12 @@
             "link": "https://www.youtube.com/watch?v=ymaTlnCbOq8",
             "percent": 100,
             "hz": 960
+        },
+        {
+            "user": "Dqw1Dx",
+            "link": "https://www.youtube.com/watch?v=X3DVwjLgS_8",
+            "percent": 80,
+            "hz": 360
         }
     ]
 }
