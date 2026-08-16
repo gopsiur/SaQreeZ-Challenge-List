@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-16T01:04:00.000Z",
+  "title": "Design System: SaQreeZ Demon List (Cyberpunk Neon Vault)",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Electric Violet",
+        "canonical": "oklch(62% 0.28 300)",
+        "tonalRamp": [
+          "#220042",
+          "#460882",
+          "#6e1ec7",
+          "#8f30ea",
+          "#a83dff",
+          "#c472ff",
+          "#deabff",
+          "#f4e6ff"
+        ]
+      },
+      "primary-dark": {
+        "role": "primary",
+        "displayName": "Neon Royal Purple",
+        "canonical": "oklch(52% 0.26 295)",
+        "tonalRamp": [
+          "#1a003f",
+          "#3c0d7d",
+          "#611cb8",
+          "#8d2be2",
+          "#a84ef5",
+          "#c47cfa",
+          "#dfb0fd",
+          "#f5e6fe"
+        ]
+      },
+      "podium-gold": {
+        "role": "secondary",
+        "displayName": "Podium Gold",
+        "canonical": "oklch(86% 0.16 85)",
+        "tonalRamp": [
+          "#3a2800",
+          "#6e4e00",
+          "#a87900",
+          "#e5a700",
+          "#ffd166",
+          "#ffdf8f",
+          "#ffedb8",
+          "#fffbe6"
+        ]
+      },
+      "podium-silver": {
+        "role": "secondary",
+        "displayName": "Podium Silver",
+        "canonical": "oklch(90% 0.01 240)",
+        "tonalRamp": [
+          "#1f2022",
+          "#3e4044",
+          "#65686e",
+          "#989ca3",
+          "#c8cbd0",
+          "#e0e1dd",
+          "#f0f1f0",
+          "#ffffff"
+        ]
+      },
+      "podium-bronze": {
+        "role": "secondary",
+        "displayName": "Podium Bronze",
+        "canonical": "oklch(60% 0.12 50)",
+        "tonalRamp": [
+          "#2e1400",
+          "#572900",
+          "#854000",
+          "#b35904",
+          "#cd7f32",
+          "#dc9e60",
+          "#eac095",
+          "#f7e5d2"
+        ]
+      },
+      "discord": {
+        "role": "secondary",
+        "displayName": "Discord Blurple",
+        "canonical": "oklch(58% 0.23 275)",
+        "tonalRamp": [
+          "#1c204d",
+          "#2f3680",
+          "#434eb5",
+          "#5865f2",
+          "#7984f5",
+          "#9ea7f8",
+          "#c4c9fa",
+          "#ebedfd"
+        ]
+      },
+      "background-dark": {
+        "role": "neutral",
+        "displayName": "Obsidian Space",
+        "canonical": "oklch(12% 0.01 260)",
+        "tonalRamp": [
+          "#040507",
+          "#0b0c10",
+          "#12141c",
+          "#181a26",
+          "#222536",
+          "#3b405c",
+          "#5e668f",
+          "#94a3b8"
+        ]
+      },
+      "black": {
+        "role": "neutral",
+        "displayName": "Pitch Black",
+        "canonical": "oklch(0% 0 0)",
+        "tonalRamp": [
+          "#000000",
+          "#050505",
+          "#0a0a0a",
+          "#111111",
+          "#1a1a1a",
+          "#242424",
+          "#333333",
+          "#555555"
+        ]
+      },
+      "error": {
+        "role": "error",
+        "displayName": "Signal Error Red",
+        "canonical": "oklch(62% 0.22 25)",
+        "tonalRamp": [
+          "#3b0808",
+          "#701212",
+          "#aa1f1f",
+          "#ef4444",
+          "#f87171",
+          "#fca5a5",
+          "#fecaca",
+          "#fef2f2"
+        ]
+      },
+      "success": {
+        "role": "secondary",
+        "displayName": "Arcade Emerald",
+        "canonical": "oklch(70% 0.18 160)",
+        "tonalRamp": [
+          "#022c22",
+          "#065f46",
+          "#047857",
+          "#10b981",
+          "#34d399",
+          "#6ee7b7",
+          "#a7f3d0",
+          "#ecfdf5"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Main level headers and primary page titles."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card titles, score values, and group labels."
+      },
+      "title-md": {
+        "displayName": "Title Medium",
+        "purpose": "Medium section headers and uppercase stats."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Rules, guidelines, and level descriptions."
+      },
+      "label": {
+        "displayName": "Label Large",
+        "purpose": "List items, navigation tabs, buttons, and badges."
+      },
+      "label-md": {
+        "displayName": "Label Medium",
+        "purpose": "Author credits, secondary notes, and FPS badges."
+      },
+      "label-sm": {
+        "displayName": "Label Small",
+        "purpose": "Micro tags and mobile meta badges."
+      }
+    },
+    "shadows": [
+      {
+        "name": "neon-glow",
+        "value": "0 0 20px rgba(168, 61, 255, 0.35)",
+        "purpose": "Ambient glow for active surfaces, buttons, and video showcases."
+      },
+      {
+        "name": "gold-glow",
+        "value": "0 0 16px rgba(255, 209, 102, 0.4)",
+        "purpose": "Prestigious glow for #1 Champion badge."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Smooth deceleration for micro-lifts, tabs, and panel reveals."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "992px"
+      },
+      {
+        "name": "xl",
+        "value": "1366px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Neon Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Luminous action button with violet glow and tactile micro-lift.",
+      "html": "<button class=\"ds-btn-neon\">START ROULETTE</button>",
+      "css": ".ds-btn-neon { background: #8d2be2; color: #ffffff; padding: 14px 24px; font-family: 'Lexend Deca', sans-serif; font-size: 17.14px; font-weight: 700; border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 12px; box-shadow: 0 0 16px rgba(168, 61, 255, 0.35); cursor: pointer; transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s; } .ds-btn-neon:hover { transform: translateY(-2px); box-shadow: 0 0 24px rgba(168, 61, 255, 0.55); background: #a83dff; }"
+    },
+    {
+      "name": "Obsidian Glass Row",
+      "kind": "custom",
+      "refersTo": "button-primary",
+      "description": "Frosted glass level row with podium rank badge support.",
+      "html": "<div class=\"ds-glass-row ds-glass-row--active\"><span class=\"ds-rank ds-rank--gold\">#1</span><span class=\"ds-title\">Tanscapes</span></div>",
+      "css": ".ds-glass-row { display: flex; align-items: center; gap: 16px; padding: 14px 18px; border-radius: 12px; background: rgba(24, 26, 38, 0.75); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); color: #ffffff; font-family: 'Lexend Deca', sans-serif; cursor: pointer; transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-glass-row:hover { background: rgba(34, 37, 54, 0.85); transform: translateY(-2px); border-color: rgba(168, 61, 255, 0.3); } .ds-glass-row--active { background: #8d2be2 !important; border-color: rgba(255, 255, 255, 0.25) !important; box-shadow: 0 0 16px rgba(168, 61, 255, 0.35); } .ds-rank--gold { color: #ffd166; font-weight: 700; text-shadow: 0 0 8px rgba(255, 209, 102, 0.5); }"
+    },
+    {
+      "name": "Copy Stat Card",
+      "kind": "card",
+      "refersTo": "button-primary",
+      "description": "Interactive card displaying level ID or password with one-click copy feedback.",
+      "html": "<div class=\"ds-stat-card\"><span class=\"ds-stat-label\">LEVEL ID</span><span class=\"ds-stat-value\">94827102</span><button class=\"ds-copy-btn\">Copy</button></div>",
+      "css": ".ds-stat-card { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 16px; border-radius: 12px; background: rgba(24, 26, 38, 0.75); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); font-family: 'Lexend Deca', sans-serif; } .ds-stat-label { font-size: 11.4px; color: #94a3b8; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; } .ds-stat-value { font-size: 20px; font-weight: 700; color: #ffffff; } .ds-copy-btn { font-size: 11.4px; padding: 4px 10px; border-radius: 9999px; background: rgba(168, 61, 255, 0.2); color: #a83dff; border: 1px solid rgba(168, 61, 255, 0.4); cursor: pointer; transition: all 0.15s; } .ds-copy-btn:hover { background: #a83dff; color: #ffffff; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Cyberpunk Neon Vault",
+    "overview": "SaQreeZ Demon List (SDL) is reimagined as an electric, high-performance competitive vault for Geometry Dash challenge grinders and list verifiers. The visual world is defined by deep obsidian canvases (#0b0c10), frosted glass containers (backdrop-filter: blur(16px)), vibrant electric violet accents (#a83dff / #8d2be2), luminous ambient glows, and prestigious gold/silver/bronze podium distinctions.",
+    "keyCharacteristics": [
+      "Obsidian Glass Foundations: Translucent acrylic panels with subtle 1px border illumination (rgba(255, 255, 255, 0.08)) and deep obsidian depth.",
+      "Electric Violet Luminescence: Vibrant purple energy accents powering active list selections, glowing button triggers, and interactive tabs.",
+      "Podium Prestige Hierarchy: Top 3 ranks claim dedicated metallic styling (#1 Gold #ffd166, #2 Silver #e0e1dd, #3 Bronze #cd7f32) elevating tournament prestige.",
+      "Precision Typography: Clean geometric rhythm powered by Lexend Deca with custom cap-height alignment."
+    ],
+    "rules": [
+      {
+        "name": "The Podium Distinction Rule",
+        "body": "Ranks #1, #2, and #3 are visually distinct from the rest of the list, proudly donning metallic gold, silver, and bronze badges to honor the hardest accomplishments in the game.",
+        "section": "colors"
+      },
+      {
+        "name": "The Obsidian Glass Rule",
+        "body": "Panels float over deep obsidian space using frosted translucency (backdrop-filter: blur(16px)) and subtle illuminated 1px borders, creating sophisticated depth without heavy opaque drop shadows.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Tabular Precision Rule",
+        "body": "All ranks, points, completion percentages, FPS counters, and level IDs employ font-variant-numeric: tabular-nums for rock-solid tabular alignment.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do use Lexend Deca with tabular-nums for all stats, numbers, and headers.",
+      "Do preserve the frosted obsidian glass aesthetics (backdrop-filter: blur(16px)).",
+      "Do honor top-3 podium styling (#1 Gold, #2 Silver, #3 Bronze) across List and Leaderboard.",
+      "Do provide instant visual feedback on one-click copy actions for IDs and passwords."
+    ],
+    "donts": [
+      "Don't use opaque flat 2020-era tables without glass depth or rounded row treatments.",
+      "Don't use multi-color rainbow gradient borders that distract from competitive content.",
+      "Don't hide YouTube video embeds behind modal dialogs when direct inline playback is expected."
+    ]
+  }
+}
