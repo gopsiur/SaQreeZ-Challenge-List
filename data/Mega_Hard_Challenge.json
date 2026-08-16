@@ -113,6 +113,24 @@
             "percent": 100,
             "mobile": 1,
             "hz": 120
+        },
+        {
+            "user": "47hz_",
+            "link": "https://www.youtube.com/watch?v=taFSPR4NBug",
+            "percent": 100,
+            "hz": 720
+        },
+        {
+            "user": "bezzi",
+            "link": "https://youtu.be/0uSi56boDZk",
+            "percent": 100,
+            "hz": 720
+        },
+        {
+            "user": "Szymix1221",
+            "link": "https://medal.tv/games/geometry-dash/clips/ngWNg5Oq2JRqZhkyf?invite=cr-MSxuN3EsNzMwNTUyNjgz",
+            "percent": 100,
+            "hz": 720
         }
     ]
 }

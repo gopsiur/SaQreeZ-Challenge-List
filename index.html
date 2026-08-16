@@ -2,10 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=1024" />
-        <title>SDL</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SDL - SaQreeZ Demon List | Geometry Dash Challenge List</title>
+        <meta name="description" content="SaQreeZ Demon List (SDL) - The official community ranking list, leaderboard, level packs, and roulette for Geometry Dash challenge levels." />
 
-        <!-- Replace your server icon by uploading an image file named "list_icon.png"--> <!-- some test things -->
         <link rel="icon" href="/SDL_logo.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -39,48 +39,54 @@
         <script type="module" src="/js/main.js"></script>
     </head>
     <body id="app">
-        <header :class="{ dark: store.dark }">
-            <div class="logo">
-                <h2>SDL</h2>
-                <p>SaQreeZ Demon List</p>
-            </div>
+        <header>
+            <router-link to="/" class="logo">
+                <span class="logo-badge">SDL</span>
+                <div class="logo-text">
+                    <h2>SaQreeZ Demon List</h2>
+                    <p>Geometry Dash Challenge List</p>
+                </div>
+            </router-link>
             <nav class="nav">
-                <router-link class="nav__tab" to="/">
-                    <span class="type-label-lg">List</span>
-                </router-link>
-                <router-link class="nav__tab" to="/leaderboard">
-                    <span class="type-label-lg">Leaderboard</span>
-                </router-link>
-                <router-link class="nav__tab" to="/roulette">
-                    <span class="type-label-lg">Roulette</span>
-                </router-link>
-                <router-link class="nav__tab" to="/packs">
-                    <span class="type-label-lg">Packs</span>
-                </router-link>
+                <div class="nav-links">
+                    <router-link class="nav__tab" to="/">
+                        <span>List</span>
+                    </router-link>
+                    <router-link class="nav__tab" to="/leaderboard">
+                        <span>Leaderboard</span>
+                    </router-link>
+                    <router-link class="nav__tab" to="/roulette">
+                        <span>Roulette</span>
+                    </router-link>
+                    <router-link class="nav__tab" to="/packs">
+                        <span>Packs</span>
+                    </router-link>
+                </div>
                 <div class="nav__actions">
                     <button
                         class="nav__icon"
-                        @click.prevent="store.toggleDark()"
+                        @click.stop="store.toggleDark()"
+                        type="button"
+                        title="Przełącz motyw"
                     >
                         <img
                             :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
-                            alt=""
+                            alt="Toggle Theme"
                         />
                     </button>
-                    <!-- Replace the '#' with your discord server's invite-->
-                    <a class="nav__icon" href="https://discord.gg/nqCAccHWJu">
+                    <a class="nav__icon" href="https://discord.gg/nqCAccHWJu" target="_blank" title="Discord">
                         <img src="/assets/discord.svg" alt="Discord Logo" />
                     </a>
-                    <!-- List record submission form, add a link to replace the '#' when putting a link to your list submission form-->
                     <a
-                        class="nav__cta type-label-lg"
+                        class="nav__cta"
                         href="https://discord.gg/nqCAccHWJu"
                         target="_blank"
-                        >Join our discord server</a
                     >
+                        <span>Discord Server</span>
+                    </a>
                 </div>
             </nav>
         </header>
-        <router-view :class="{ dark: store.dark }"></router-view>
+        <router-view></router-view>
     </body>
 </html>

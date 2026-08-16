@@ -1,30 +1,34 @@
 .tabs {
     display: flex;
+    gap: 0.5rem;
+    background: var(--color-surface-card);
+    padding: 0.35rem;
+    border-radius: 12px;
+    border: 1px solid var(--color-border);
 }
 
-.tabs .tab{
+.tabs .tab {
     border: none;
     cursor: pointer;
-    font: inherit;
-    padding: 1rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14.2857142857px;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
     margin: 0;
     background-color: transparent;
-    color: var(--color-on-background);
-    border-bottom: 3px solid transparent;
+    color: var(--color-text-muted);
+    border-radius: 8px;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.tabs .tab:first-child {
-    border-top-left-radius: 0.5rem;
+.tabs .tab:hover {
+    color: var(--color-text);
+    background-color: var(--color-surface-hover);
 }
 
-.tabs .tab:last-child {
-    border-top-right-radius: 0.5rem;
-}
-
-.tabs .tab.selected{
-    border-bottom: 3px solid var(--color-on-background);
-}
-
-.tabs .tab:hover{
-    background-color: var(--color-background-hover);
+.tabs .tab.selected {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+    font-weight: 700;
+    box-shadow: 0 0 12px var(--color-primary-glow);
 }
