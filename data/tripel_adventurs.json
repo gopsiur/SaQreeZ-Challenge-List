@@ -1,0 +1,20 @@
+{
+    "id": 131295526,
+    "name": "tripel adventurs",
+    "author": "MaybeGurt",
+    "creators": ["MaybeGurt"],
+    "verifier": "MaybeGurt",
+    "verification": "https://youtu.be/oeZUy-HGiVE",
+    "percentToQualify": 100,
+    "password": "None",
+    "enjoyment": "7/10",
+    "description": "best level on sdl hands down",
+    "records": [
+        {
+            "user": "gopsolaptop",
+            "link": "link",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
+}
